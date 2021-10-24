@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+.navbar-toggler{
+    border-radius: 0;
+}
+
+.navbar{
+    margin-bottom: 10px;
+}
+
+.fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+    color: white;
+}
+
+/* main */
+.icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+/* Menu Links */
+.menu-links{
+    background-color: #CF0015;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+color: white;
+font-size: 7pt;
+margin: 2px;
+}
+
+/* Menu Items */
+
+#heading-section{
+    padding-top: 50px;
+    text-align: center;
+}
+.menu-items{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+
+.frame-image{
+flex: 60%;
+background-size: cover;
+background-position: center;
+}
+
+.frame-image>img{
+height: 120px;
+}
+
+.frame-info{
+flex:35%;
+padding-top: 10px;
+}
+
+.frame-icon{
+    flex: 5%;
+    padding-top: 10px;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: #97BE56;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.partners{
+    position: absolute;
+}
+
+
+
+/* Mobile */
+nav{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Ipad */
+@media screen and (min-width: 760px){
+
+}
+
+/* Laptop */
+@media screen and (min-width: 1200 px){
+    nav{
+    max-width: 1000px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
